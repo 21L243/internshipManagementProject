@@ -1,0 +1,151 @@
+.design{
+    margin: 0;
+    padding: 0;
+  background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;}
+    li {
+    float:right;
+    }
+    li a {
+  
+    color: white;
+    padding: 30px 100px;
+    }
+    li a:hover {
+    background-color:rgb(18, 80, 122);
+    color: azure;
+    text-decoration: none;
+    }
+    img{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width:250px;
+    height:70px;
+    }
+    .design2 h1{
+    position:relative;
+    bottom:-150px;
+    color: aliceblue;
+    left:500px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .design2 h2{
+    position:relative;
+    bottom:-160px;
+    color: aliceblue;
+    left:540px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+
+  @keyframes slideInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .design2 h1,
+  .design2 h2 {
+    animation: slideInFromTop 1s ease-out;
+  }
+   .b1 button{
+    position:relative;
+    top:190px;
+    left:530px;
+    font-size: 35px;
+    border-radius: 30px;
+    background-color:rgb(13, 68, 105);
+    color: aliceblue;
+    border:2px solid white;
+    width:200px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .b2 button{
+    position:relative;
+    top:135px;
+    left:810px;
+    font-size: 35px;
+    border-radius: 30px;
+    background-color:rgb(13, 68, 105);
+    color: aliceblue;
+    border:2px solid white;
+    width:200px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    button:hover{
+    background-color: rgb(28, 107, 160);
+    }
+    .b3 a{
+      position: relative;
+      right:-730px;
+      bottom:-150px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+  /* responsive*/
+    @media screen and (max-width: 768px) {
+        li {
+      width: 20%; 
+        position: relative;
+        left:-100px;
+      }
+      li a:hover {
+        color: rgb(68, 198, 198);
+        text-decoration: none;
+        width: 5px;
+        }
+    .design2 h1{
+      left: 50px; 
+    font-size: 30px;
+    left: 50px;
+    font-size: 25px; 
+    position: relative;
+    left:20px;
+    top:50px;
+  }
+    .design2 h2 {
+        left: 50px; 
+        font-size: 30px;
+        left: 50px;
+        font-size: 25px; 
+        position: relative;
+        right:-5px;
+        top:50px;
+
+      }
+      
+      .b1 button {
+        top: 100px; 
+        left: 30px; 
+        font-size: 25px; 
+        width: 150px; 
+      }
+      .b2 button {
+        top: 60px; 
+        left: 210px;
+        font-size: 25px;
+        width: 150px; 
+      }
+    }
+    

@@ -1,0 +1,135 @@
+.design43{
+    margin: 0;
+    padding: 0;
+  background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+    .design43 img{
+         position: absolute;
+    top: 0.3px;
+            left: -1px;
+            width:270px;
+            height:70px;
+            background-color:#073d70; ;
+            
+    }
+.admin11{
+    position: relative;
+    color: aliceblue;
+    font-size: 40px;
+    top:-750px;
+    left:530px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    
+}
+.sidenav h1{
+    color: rgb(0, 131, 245);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+  
+  .sidenav {
+    height: 90%;
+    width: 270px;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+    top:70px;
+    left: 0;
+    background-color: rgba(13, 68, 105, 0.5);
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e7e4e4;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color:rgb(0, 131, 245);
+  }
+  
+  .submenu {
+    padding-left: 20px;
+  }
+  
+  .submenu li {
+    list-style: none;
+  }
+  
+  .submenu a {
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ccc;
+  }
+   .but23 button{
+    position: relative;
+    left:30px;
+    bottom:-10px;
+    width:180px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  .ram h1{
+ position: relative;
+ top:-700px;
+ left:780px;
+ color: rgb(32, 114, 185);
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 900;
+  }
+  .ram h2{
+    position: relative;
+    top:-680px;
+    left:380px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .ram1 h1{
+    position: relative;
+    top:-660px;
+    left:780px;
+    color: rgb(32, 114, 185);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+     }
+     .ram1 h2{
+       position: relative;
+       top:-650px;
+       left:480px;
+       color: aliceblue;
+       font-family: 'Times New Roman', Times, serif;
+     }
+     .ram2 h1{
+        position: relative;
+        top:-620px;
+        left:760px;
+        color: rgb(32, 114, 185);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+         }
+         .ram2 h2{
+           position: relative;
+           top:-600px;
+           left:380px;
+           font-size: 30px;
+           color: aliceblue;
+           font-family: 'Times New Roman', Times, serif;
+         }

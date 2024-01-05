@@ -1,0 +1,350 @@
+.design1{
+    margin: 0;
+    padding: 0;
+  background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+  }
+    
+    .design1  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+       
+      font-family: 'Times New Roman', Times, serif;}
+     .design1 li {
+        float:right;
+        }
+        .design1  li a {
+        display: block;
+        color: white;
+        padding: 30px 100px;
+        text-decoration: none;
+        }
+        .design1 li a:hover {
+        background-color: rgb(13, 68, 105);
+        }.design1 img{
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            width:250px;
+            height:70px;
+            }
+            .hover-about:hover a {
+                background-color: rgb(13, 68, 105);
+              }
+              .name {
+                position: relative;
+                right:-30px;
+                top:-630px;
+               color: aliceblue;
+                font-size: 25px;
+                background-color: rgba(13, 68, 105, 0.5);
+                width: 350px;
+                height: 430px;
+                border-radius: 60px;
+                border: 3px solid whitesmoke;
+              }
+              .pot a{
+                position: relative;
+                top:-920px;
+                right:-70px;
+                font-family: 'Times New Roman', Times, serif;
+                color:rgb(117, 207, 239);
+                font-size: 25px;
+              }
+              .pot a:hover{
+                color:rgb(20, 79, 108);
+                text-decoration: none;
+              }
+              .pot2 a{
+                position: relative;
+                top:-910px;
+                right:-70px;
+                font-family: 'Times New Roman', Times, serif;
+                color:rgb(117, 207, 239);
+                font-size: 25px;
+                width:200px;
+                text-align: center;
+                
+              }
+              .pot2 a:hover{
+                color:rgb(20, 79, 108);
+                text-decoration:none;
+              }
+              .fulls img{
+                position: relative;
+                width:100px;
+                left:110px;
+              }
+              .full h3{
+                position: relative;
+                top:-930px;
+                right:-70px;
+                font-family: 'Times New Roman', Times, serif;
+                color: aliceblue;
+              }
+             
+              .full1 h3{
+                position: relative;
+                top:-928px;
+                right:-70px;
+                font-family: 'Times New Roman', Times, serif;
+                color: aliceblue;
+              }
+              .fulls h1{
+                position: relative;
+                top:-1px;
+                right:-110px;
+                font-family: 'Times New Roman', Times, serif;
+                color: rgb(14, 182, 219);
+                font-size: 35px;
+                font-weight: bold;
+              }
+              .but{
+                position: relative;
+                top:-880px;
+                right:-130px;
+              }
+          
+@keyframes scaleImage {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.image-container img {
+  position: relative;
+  top: -1240px;
+  left: 450px;
+  width: 300px;
+  height: 200px;
+  border-radius: 50px;
+  border: 10px solid rgb(13, 68, 105);
+
+  animation: scaleImage 3s ease-in-out infinite; 
+}
+.image-container1 img {
+  position: relative;
+  top: -1440px;
+  left: 800px;
+  width: 300px;
+  height: 200px;
+  border-radius: 50px;
+  border: 10px solid rgb(13, 68, 105);
+  animation: scaleImage 3s ease-in-out infinite; 
+}
+.image-container3 img {
+  position: relative;
+  top: -1640px;
+  left: 1150px;
+  width: 300px;
+  height: 200px;
+  border-radius: 50px;
+  border: 10px solid rgb(13, 68, 105);
+  animation: scaleImage 3s ease-in-out infinite; 
+}
+.ff h1 {
+  position: relative;
+  top: -1540px;
+  left: 640px;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  text-decoration: overline; 
+  font-weight: lighter; 
+  font-style: italic; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+  letter-spacing: 1px;
+}
+.foot11 footer {
+  position: relative;
+  background-color: rgb(13, 68, 105);
+  color: rgb(248, 251, 253);
+  padding: 20px 0;
+  top: -1390px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:bolder;
+}
+footer p {
+  margin: 0;
+  position: relative;
+  left:600px;
+  font-size: 15px;
+  position: relative;
+  top:-16px;
+}
+.fa {
+  padding: 1px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.icons11{
+  position: relative;
+  top:-15px;
+  left:650px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/************************** responsive ************************************ */
+
+@media only screen and (max-width: 768px) {
+ .design1 img{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    width:250px;
+    height:70px;
+    }
+  .name {
+    top: -640px;
+    width: 300px;
+    height: 300px;
+    font-size: 5px;
+  }
+  .but{
+    position: relative;
+    top:-830px;
+    right:-120px;
+  }
+  .pot a{
+    position: relative;
+    top:-850px;
+    right:-70px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  .full h2{
+    position: relative;
+    top:-870px;
+    right:-70px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+  }
+  .full1 h2{
+    position: relative;
+    top:-860px;
+    right:-70px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+  }
+.foot11 footer p {
+  position: relative;
+  left:-10px;
+  font-size: 15px;
+  position: relative;
+  top:-10px;
+  color:white;
+}
+  .fulls h1{
+    position: relative;
+    top:-10px;
+    right:-60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(14, 182, 219);
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .ff h1 {
+    position: relative;
+    top: -1380px;
+    left:30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-decoration: overline; 
+    font-weight: lighter; 
+    font-style: italic; 
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    letter-spacing: 1px;
+  }
+  .foot11 footer {
+    position: relative;
+    background-color: rgb(13, 68, 105);
+    color: rgb(248, 251, 253);
+    padding: 20px 0;
+    top: -1315px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+  }
+  .fa {
+    padding: 1px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .icons11{
+    position: relative;
+    top:-5px;
+    left:100px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+}
+
+
+
+
+
+              

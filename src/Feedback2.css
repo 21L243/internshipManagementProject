@@ -1,0 +1,178 @@
+.design1{
+    margin: 0;
+    padding: 0;
+  background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+  }
+    
+    .design1  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+       
+      font-family: 'Times New Roman', Times, serif;}
+     .design1 li {
+        float:right;
+        }
+        .design1  li a {
+        display: block;
+        color: white;
+        padding: 30px 100px;
+        text-decoration: none;
+        }
+        .design1 li a:hover {
+        background-color: rgb(13, 68, 105);
+        }.design1 img{
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            width:250px;
+            height:70px;
+            }
+            .hover-about:hover a {
+                background-color: rgb(13, 68, 105);
+              }
+              .boot h1 {
+                position: relative;
+                top:15px;
+                left:30px;
+                font-family: 'Times New Roman', Times, serif;
+                color: rgb(12, 13, 13);
+                font-weight: bold;
+              }
+              .boot2 p{
+                position: relative;
+                top:15px;
+                left:30px;
+                font-family: 'Times New Roman', Times, serif;
+                color: rgb(12, 13, 13);
+                font-size: 20px;
+              }
+              .boot3 p{
+                position: relative;
+                top:15px;
+                left:30px;
+                font-family: 'Times New Roman', Times, serif;
+                color: rgb(0, 8, 8);
+                font-size: 20px;
+                font-weight: bold;
+              }
+              .ladoo{
+                position: relative;
+                top:-600px;
+                left:450px;
+                background-color: aliceblue;
+                width: 700px;
+                height:450px;
+                border-radius: 20px;
+                border:5px solid rgb(44, 127, 200); 
+              }
+            
+            .star-rating {
+                font-size: 0;
+              }
+              
+              .star {
+                display: inline-block;
+                font-size: 5rem;
+                cursor: pointer;
+                color: #ccc;
+                transition: color 0.25s;
+                position: relative;
+                right:-30px;
+                top:-1px;
+                
+              }
+              
+              .star:hover,
+              .star.active {
+                color: #ffc107; 
+              }
+              
+              .boot4 h3{
+                position: relative;
+                top:-20px;
+                left:30px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+              }
+              .boot5  input[type="message11"],textarea{
+                position: relative;
+                top:-20px;
+                width:630px;
+                right:-35px;
+              }
+              .boot6 button{
+                position:relative;
+                right:-570px;
+                font-size: 25px;
+                bottom:20px;
+                font-family: 'Times New Roman', Times, serif;
+                background-color: rgb(9, 58, 110);
+                color:white;
+                border:3px solid lightskyblue;
+                border-radius: 10px;
+                width:100px;
+              }
+              .boot6 button:hover{
+                background-color: #1f98c1;
+                border:3px solid rgb(19, 24, 26);
+              }
+              .foot44 footer {
+                position: relative;
+                background-color: rgb(13, 68, 105);
+                color: rgb(248, 251, 253);
+                padding: 20px 0;
+                top: -520px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight:bolder;
+              }
+              footer p {
+                margin: 0;
+                position: relative;
+                left:600px;
+                font-size: 15px;
+                position: relative;
+                top:-16px;
+              }
+              .fa {
+                padding: 1px;
+                font-size: 30px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                border-radius: 50%;
+              }
+              
+              .fa:hover {
+                  opacity: 0.7;
+              }
+              
+              .icons44{
+                position: relative;
+                top:-15px;
+                left:650px;
+              }
+              .fa-facebook {
+                background: #3B5998;
+                color: white;
+              }
+              
+              .fa-twitter {
+                background: #55ACEE;
+                color: white;
+              }
+              .fa-youtube {
+                background: #bb0000;
+                color: white;
+              }
+              
+              .fa-instagram {
+                background: #125688;
+                color: white;
+              }

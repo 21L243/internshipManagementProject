@@ -1,0 +1,165 @@
+.container1 {
+    background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.container2 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    width: 500px;
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    bottom: -20px;
+}
+
+.container2 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    color: azure;
+}
+
+.input-container1 {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+input[type="name"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ .but1 button {
+    padding: 15px 40px;
+    background-color: rgb(13, 68, 105);
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    bottom: -7px;
+}
+
+button:hover {
+    background-color: rgb(28, 107, 160);
+}
+
+.gg p {
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    position: relative;
+    bottom: -10px;
+}
+.gg a{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(145, 208, 208);
+}
+
+.input-container1 input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* *************responsive ****************** */
+
+@media screen and (max-width: 768px) {
+    .container2 {
+        width: 80%; 
+        max-width: 400px; 
+        padding: 20px; 
+        border-radius: 20px; 
+        bottom: 40px;
+        left:-10px;
+      }
+      label {
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: aliceblue;
+        position: relative;
+        bottom:-740px;
+    }
+    .container2 h1 {
+      font-size: 30px; /* Adjust font size */
+      position: relative;
+      left:-9px;
+      bottom: -20px;
+    }
+    .input-container1 input[type="email"] {
+        width: 260px;
+        padding: 12px;
+        margin-top: 5px;
+        border-radius: 10px;
+        border: 1px solid white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+  
+    input[type="name"],
+    input[type="password"],
+    input[type="email"] {
+      width:260px; /* Adjust input width */
+      padding: 10px; /* Adjust input padding */
+      margin-top: 10px; /* Adjust input margin */
+      border-radius: 8px; /* Adjust input border radius */
+     position: relative;
+     bottom:-730px;
+     left:-30px;
+    }
+    label {
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: aliceblue;
+        position: relative;
+     left:-25px;
+    }
+  
+    .but1 button {
+      padding: 12px 30px; /* Adjust button padding */
+      font-size: 18px; /* Adjust button font size */
+      bottom: 0; /* Reset the position */
+      position: relative;
+     bottom:-750px;
+     left:-20px;
+    }
+  
+    .gg p
+    {
+      position: relative;
+        bottom:-760px;
+        left:-20px;
+      }
+    .gg a {
+    
+      position: relative;
+      bottom:-380px;
+      left:-10px;
+    }
+  }
+  

@@ -1,0 +1,133 @@
+.container3 {
+    background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.container4 {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3); 
+    width: 500px;
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    top: -45px;
+}
+
+.input-container10 input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ts p{
+     font-family: 'Times New Roman', Times, serif;
+     color:aliceblue;
+     position: relative;
+     bottom: -20px;
+}
+
+.but2 button {
+    padding: 15px 40px;
+    background-color: rgb(13, 68, 105);
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    bottom: -15px;
+}
+.ts a{
+    color: rgb(145, 208, 208);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: -15px;
+}
+.ss h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-weight: bold;
+}
+.input-container10 label{
+    position: relative;
+    left:-170px;
+}
+.input-container9 label{
+    position: relative;
+    left:-155px;
+}
+/* *********** responsive ********** */
+
+@media screen and (max-width: 768px) {
+    .container4 {
+      width: 80%;
+      max-width: 400px; 
+      padding: 20px;
+      border-radius: 20px; 
+      position: relative;
+      left:-20px;
+    }
+  
+    .input-container10 input[type="email"] {
+      width:270px; 
+      padding: 10px; 
+      margin-top: 10px; 
+      border-radius: 8px;
+      position: relative;
+      bottom: -700px;
+      left:-30px;    
+    }
+    .input-container9 input[type="password"] {
+        width:270px; 
+        padding: 10px; 
+        margin-top: 10px; 
+        border-radius: 8px;
+        position: relative;
+        bottom: -700px;
+        left:-30px;    
+      }
+    .ss h1{
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+        position: relative;
+        bottom: -670px;
+        font-weight: bold;
+    }
+    .but2 button {
+      padding: 12px 30px; /* Adjust button padding */
+      font-size: 18px; /* Adjust button font size */
+      bottom: 0; /* Reset the position */  
+      position: relative;
+      bottom: -740px;
+
+    }
+  
+    .ts p,
+    .ts a {
+   
+      position: relative;
+      bottom: -750px;
+    }
+  
+    .input-container10 label {
+        position: relative;
+        bottom: -700px;
+        left:-95px;
+    }
+    .input-container9 label {
+        position: relative;
+        bottom: -700px;
+        left:-80px;
+    }
+  }
+  

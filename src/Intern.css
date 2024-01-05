@@ -1,0 +1,508 @@
+
+  .design7{
+      margin: 0;
+      padding: 0;
+    background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+     background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+     
+      }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;}
+      li {
+      float:right;
+      }
+      li a {
+      display: block;
+      color: white;
+      padding: 30px 100px;
+      text-decoration: none;
+      }
+      li a:hover {
+      background-color:rgb(13, 68, 105);
+      }.design7 img{
+          position: absolute;
+          top: 10px;
+          left: 50px;
+          width:250px;
+          height:70px;
+          }
+          .hover-about:hover a {
+              background-color: rgb(13, 68, 105);
+            }
+     .width {
+          
+            position: relative;
+            width: 430px;
+            top:-630px;
+            right:-20px;
+            height: 40px;
+            border-radius: 40px;
+            background-color: rgba(22, 104, 159, 0.5);
+        
+           }
+           .h1 h1{
+            position: relative;
+            font-family: 'Times New Roman', Times, serif;
+            right:-70px;
+            color: aliceblue;
+           }
+           .h2 label{
+            position: relative;
+            font-family: 'Times New Roman', Times, serif;
+            right:-10px;
+            font-size: 20px;
+            color: aliceblue;
+           
+           }
+          
+.h2 select {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 6px; 
+    width: 220px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    right: -183px;
+    top: -36px;
+   
+  }
+  .j2 select option {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    
+  }
+  .j3 label{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    right:-10px;
+    font-size: 20px;
+    top:-50px;
+    color: aliceblue;
+   }
+  
+.j3 select {
+font-family:'Times New Roman', Times, serif;
+font-size: 20px;
+padding: 6px; 
+width: 220px; 
+border: 1px solid #ccc;
+border-radius: 4px;
+position: relative;
+right: -98px;
+top:-85px;
+}
+.j3 select option {
+font-family:'Times New Roman', Times, serif;
+font-size: 14px;
+
+}
+ .j4 label {
+    position: relative;
+    right: -20px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    top:-70px;
+    color: aliceblue;
+  }
+  
+  
+ .j4 input[type="radio"] {
+   position: relative;
+   left:-10px;
+  }
+
+.kk label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+   right: -10px;
+   top:-60px;
+   color: aliceblue;
+  }
+  
+  .kk input[type="number"] {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 6px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; 
+    position: relative;
+    top:-95px;
+   right: -155px;
+  }
+  .kk1 label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+   right: -10px;
+   top:-80px;
+   color: aliceblue;  
+  }
+  
+  .kk1 input[id="maxSalary"] {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 6px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; 
+    position: relative;
+    top:-115px;
+    width:250px;
+   right: -155px;
+  }
+  .kk input[id="minSalary"] {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 6px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; 
+    position: relative;
+    top:-95px;
+    width:250px;
+   right: -155px;
+  }
+  .fg button{
+    position: relative;
+    right: -50px;
+    bottom:-10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    top:-110px;
+  }
+  .fg button:hover{
+    background-color: rgb(61, 173, 193);
+  } 
+  .fg1 button:hover{
+    background-color: rgb(60, 193, 216);
+  } 
+  .fg1 button{
+    position: relative;
+    right: -290px;
+    bottom:-10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    top:-145px;
+  }
+  .card-container101 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   overflow-y: scroll;
+    max-height: 520px;
+    width: 90%; 
+     max-width: 1000px; 
+    margin: 0 auto; 
+    border-radius: 8px;
+    padding: 10px;
+    position: relative;
+    top:-700px;
+    right:-220px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .card-container101 {
+   
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+  }
+  
+  .card-container101::-webkit-scrollbar {
+    display: none;
+  }
+  .card20 h2{
+    font-weight: bolder;
+  }
+  .card21 h2{
+    font-weight: bolder;
+  }
+  .card22 h2{
+    font-weight: bolder;
+  }
+  .card23 h2{
+    font-weight: bolder;
+  }
+  .card24 h2{
+    font-weight: bolder;
+  }
+  .card25 h2{
+    font-weight: bolder;
+  }
+  .card20 img{
+    width:400px;
+    height: 200px;
+    position: relative;
+     left:-15px
+  }
+  .card21 img{
+    width:400px;
+    height: 200px;
+    position: relative;
+     left:-15px
+  }
+  .card22 img{
+    width:400px;
+    height: 200px;
+   position: relative;
+     left:-15px   }
+     .card23 img{
+      width:400px;
+      height: 200px;
+     position: relative;
+       left:-15px   }
+       .card24 img{
+        width:400px;
+        height: 200px;
+       position: relative;
+         left:-15px   }
+         .card25 img{
+          width:400px;
+          height: 200px;
+         position: relative;
+           left:-15px   }
+  .card21 {
+    width: calc(100% - 40px); 
+    max-width: 415px; 
+    height: auto; 
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #dae6ea;
+    border-radius: 8px;
+    background-color:aliceblue;
+    box-sizing: border-box; 
+ 
+  }
+  .card21:hover {
+    transform: scale(1.05);
+ }
+ .card20:hover {
+  transform: scale(1.05);
+}
+.card22:hover {
+  transform: scale(1.05);
+}
+.card23:hover {
+  transform: scale(1.05);
+}
+.card24:hover {
+  transform: scale(1.05);
+}
+.card25:hover {
+  transform: scale(1.05);
+}
+
+  .card22 {
+    width: calc(100% - 40px); 
+    max-width: 415px; 
+    height: auto; 
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #dae6ea;
+    background-color:aliceblue;
+    box-sizing: border-box; 
+   
+  }
+  .card20 {
+    width: calc(100% - 40px); 
+    max-width: 415px; 
+    height: auto; 
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #dae6ea;
+    border-radius: 8px;
+    background-color:aliceblue;
+    box-sizing: border-box; 
+    position: relative;
+    right:5px;
+  }
+  .card23 {
+    width: calc(100% - 40px); 
+    max-width: 415px; 
+    height: auto; 
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #dae6ea;
+    border-radius: 8px;
+    background-color:aliceblue;
+    box-sizing: border-box; 
+    position: relative;
+    right:5px;
+  }
+  .card24 {
+    width: calc(100% - 40px); 
+    max-width: 415px; 
+    height: auto; 
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #dae6ea;
+    border-radius: 8px;
+    background-color:aliceblue;
+    box-sizing: border-box; 
+    position: relative;
+    right:5px;
+  }
+  .card25 {
+    width: calc(100% - 40px); 
+    max-width: 415px; 
+    height: auto; 
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #dae6ea;
+    border-radius: 8px;
+    background-color:aliceblue;
+    box-sizing: border-box; 
+    position: relative;
+    right:5px;
+  }
+  .card20 button{
+    position: relative;
+    background-color: rgb(77, 161, 206);
+    color: aliceblue;
+    right:-130px;
+    font-size: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #dae6ea;
+  }
+  .card20 button:hover{
+    background-color: rgb(212, 226, 238);
+    color: black;
+  }
+  .card21 button{
+    position: relative;
+    background-color: rgb(77, 161, 206);
+    color: aliceblue;
+    right:-130px;
+    font-size: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #dae6ea;
+  }
+  .card21 button:hover{
+    background-color: rgb(212, 226, 238);
+    color: black;
+  }
+  .card22 button{
+    position: relative;
+    background-color: rgb(77, 161, 206);
+    color: aliceblue;
+    right:-130px;
+    font-size: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #dae6ea;
+  }
+  .card22 button:hover{
+    background-color: rgb(212, 226, 238);
+    color: black;
+  }
+  .card23 button{
+    position: relative;
+    background-color: rgb(77, 161, 206);
+    color: aliceblue;
+    right:-130px;
+    font-size: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #dae6ea;
+  }
+  .card23 button:hover{
+    background-color: rgb(212, 226, 238);
+    color: black;
+  }
+  .card24 button{
+    position: relative;
+    background-color: rgb(77, 161, 206);
+    color: aliceblue;
+    right:-130px;
+    font-size: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #dae6ea;
+  }
+  .card24 button:hover{
+    background-color: rgb(212, 226, 238);
+    color: black;
+  }
+  .card25 button{
+    position: relative;
+    background-color: rgb(77, 161, 206);
+    color: aliceblue;
+    right:-130px;
+    font-size: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #dae6ea;
+  }
+  .card25 button:hover{
+    background-color: rgb(212, 226, 238);
+    color: black;
+  }
+
+.foot12 footer {
+  position: relative;
+  background-color: rgb(13, 68, 105);
+  color: rgb(248, 251, 253);
+  padding: 20px 0;
+  top: -650px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:bolder;
+}
+footer p {
+  margin: 0;
+  position: relative;
+  left:600px;
+  font-size: 15px;
+  position: relative;
+  top:-16px;
+}
+.fa {
+  padding: 1px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.icons12{
+  position: relative;
+  top:-15px;
+  left:650px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

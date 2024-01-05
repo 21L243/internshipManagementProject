@@ -1,0 +1,249 @@
+body{
+  overflow: hidden;
+}
+.design{
+    margin: 0;
+    padding: 0;
+  background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .about1  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;}
+ .about1  li {
+    float:right;
+    }
+    .about1   li a {
+    display: block;
+    color: white;
+    padding: 30px 100px;
+    text-decoration: none;
+    }
+    .about1  li a:hover {
+    background-color: rgb(13, 68, 105);
+    }.design img{
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        width:250px;
+        height:70px;
+        }
+        .hover-about:hover a {
+            background-color: rgb(13, 68, 105);
+          }
+          
+          .hover-about a {
+            display: block;
+            color: white;
+            padding: 30px 100px;
+            text-decoration: none;
+          }
+          
+          .about1 h2{
+            position: relative;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(52, 138, 213);
+            font-weight: bolder;
+            top:-640px;
+            font-size: 40px;
+            left:280px;
+          }
+          .about1 p{
+            position: relative;
+            font-family: 'Times New Roman', Times, serif;
+            color: aliceblue;
+            top:-625px;
+            font-size: 20px;
+            left:30px;
+            text-align: justify;
+            width: 800px;
+            line-height: 1.6;
+          }
+          .about1 li{
+            position: relative;
+            font-family: 'Times New Roman', Times, serif;
+            color: aliceblue;
+            top:-630px;
+            font-size: 20px;
+            left:-20px;
+            text-align: justify;
+            width: 800px;
+            line-height: 1.6;
+          }
+          .about1 h1{
+            position: relative;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(52, 138, 213);
+            top:-630px;
+            font-size: 40px;
+            left:950px;
+            text-align: justify;
+            width: 800px;
+            line-height: 1.6;
+            font-weight: 800;
+          }
+          .image img{
+                 position: absolute;
+                top: 130px;
+                left: 930px;
+                width:450px;
+                height:170px;
+                border-radius: 50px;
+          }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.about1 {
+  animation: fadeIn 1s ease-out;
+}
+.image,.image1,.image2,.image3 {
+  animation: fadeIn 0.8s ease-out;
+}
+.image1 img{
+  position: absolute;
+  top:390px;
+  left: 40px;
+  width:250px;
+  height:100px;
+  border-radius: 10px;
+}
+.image2 img{
+  position: absolute;
+  top:390px;
+  left: 335px;
+  width:250px;
+  height:100px;
+  border-radius: 10px;
+  
+}
+.image3 img{
+  position: absolute;
+  top:520px;
+  left: 165px;
+  width:300px;
+  height:130px;
+  border-radius: 10px;
+  
+}
+.foot footer {
+  position: relative;
+  background-color: rgb(13, 68, 105);
+  color: rgb(248, 251, 253);
+  padding: 20px 0;
+  top:-333px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:bolder;
+}
+
+footer p {
+  margin: 0;
+  position: relative;
+  left:600px;
+  font-size: 15px;
+  position: relative;
+  top:-16px;
+}
+.fa {
+  padding: 1px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.icons1{
+  position: relative;
+  top:-15px;
+  left:650px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+ /* responsive */
+ @media (max-width: 768px) {
+  .design img {
+    width: 200px;
+    height: 50px;
+    left: 20px;
+  }
+
+  .about1 h2 {
+    left: 50px;
+  }
+
+  .about1 h1 {
+    left: 50px;
+  }
+
+  .about1 p,
+  .about1 li {
+    width: 90%;
+    left: 20px;
+  }
+
+  .image img {
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 120px;
+    border-radius: 30px;
+  }
+
+  .image1 img,
+  .image2 img,
+  .image3 img {
+    width: 200px;
+    height: 80px;
+    left: 10px;
+  }
+
+  footer {
+    top: -300px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+
+  footer p {
+    left: 0;
+    text-align: center;
+  }
+}        

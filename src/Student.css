@@ -1,0 +1,138 @@
+.design43{
+    margin: 0;
+    padding: 0;
+  background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+  
+    }
+    .design43 img{
+         position: absolute;
+    top: 0.3px;
+            left: -1px;
+            width:270px;
+            height:70px;
+            background-color:#073d70; ;
+            
+    }
+.admin11{
+    position: relative;
+    color: aliceblue;
+    font-size: 40px;
+    top:-750px;
+    left:530px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    
+}
+.sidenav h1{
+    color: rgb(0, 131, 245);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+}
+  
+  .sidenav {
+    height: 90%;
+    width: 270px;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+    top:70px;
+    left: 0;
+    background-color: rgba(13, 68, 105, 0.5);
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e7e4e4;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color:rgb(0, 131, 245);
+  }
+  .submenu {
+    padding-left: 20px;
+  }
+  
+  .submenu li {
+    list-style: none;
+  }
+  
+  .submenu a {
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .submenu li a:hover {
+    color:rgb(0, 131, 245);
+    background-color:rgb(48, 48, 49);
+  }
+  .pussy h1{
+    position: relative;
+    top:-700px;
+    left:500px;
+    color:black;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    width:700px;
+  height: 55px;
+    text-align: center;
+    border:5px solid rgb(26, 149, 198);
+  }
+  .pussy1 form{
+    position: relative;
+    top:-670px;
+    left:500px;
+    width:700px;
+    height:440px;
+    background-color:aliceblue;
+    border:5px solid rgb(26, 149, 198);
+  }
+  .pussy1 label{
+    position: relative;
+    left:20px;
+    bottom:-10px;
+    font-family: 'Times New Roman', Times, serif;
+   color: black;
+  }
+  input[type="username"] {
+    width:640px;
+    height: 45px;
+    border-radius: 10px;
+  }
+  .pussy1 input{
+    position: relative;
+    left:20px;
+    bottom:-10px;
+    width:640px;
+    border:2px solid rgb(62, 65, 66);
+  }
+  .joker button{
+    position: relative;
+    bottom:-30px;
+    font-size:30px;
+    left:250px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #073d70;
+    color: aliceblue;
+    border:3px solid rgb(26, 149, 198);
+    border-radius: 10px;
+  }
+  .joker button:hover{
+    background-color: rgb(53, 163, 188);
+    border:3px solid rgb(4, 47, 61);
+  }

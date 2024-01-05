@@ -1,0 +1,251 @@
+.design43{
+    margin: 0;
+    padding: 0;
+  background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    }
+    .design43 img{
+         position: absolute;
+    top: 0.3px;
+            left: -1px;
+            width:270px;
+            height:70px;
+            background-color:#073d70; ;
+            
+    }
+.admin11{
+    position: relative;
+    color: aliceblue;
+    font-size: 40px;
+    top:-750px;
+    left:530px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    
+}
+.sidenav h1{
+    color: rgb(0, 131, 245);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+}
+  
+  .sidenav {
+    height: 90%;
+    width: 270px;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+    top:70px;
+    left: 0;
+    background-color: rgba(13, 68, 105, 0.5);
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e7e4e4;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color:rgb(0, 131, 245);
+  }
+  .submenu {
+    padding-left: 20px;
+  }
+  
+  .submenu li {
+    list-style: none;
+  }
+  
+  .submenu a {
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .submenu li a:hover {
+    color:rgb(0, 131, 245);
+    background-color:rgb(48, 48, 49);
+  }
+  .snake{
+    position: relative;
+    top:-700px;
+    left:500px;
+    color:black;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    width:700px;
+  height: 80px;
+    text-align: center;
+    border:5px solid rgb(26, 149, 198);
+  }
+  .snake1 button{
+    position: relative;
+    top:-670px;
+    left:550px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border:3px solid  rgb(225, 234, 238);
+    background-color: rgb(14, 81, 140);
+    color: aliceblue;
+  }
+  .snake1 button:hover{
+    background-color: #3b70be;
+    color: aliceblue;
+  }
+.hen {
+  position: relative;
+  top:-530px;
+  left:350px;
+  margin-top: 20px; 
+}
+
+
+
+.hen table {
+  width: 70%;
+  border-collapse: collapse;
+  border: 3px solid #2664ab;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.hen th {
+  border: 2px solid #201d1d;
+  padding: 8px;
+  text-align: left;
+  background-color: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+
+.hen td {
+  border: 2px solid #100f0f;
+  padding: 8px;
+  background-color: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 20%;
+  background: #f1f1f1;
+  position: relative;
+  top:-550px;
+  left:1000px;
+}
+
+form.example button {
+  float: left;
+  width: 5%;
+  padding: 15x;
+  background: #2196F3;
+  color: white;
+  height: 45px;;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  position: relative;
+  top:-550px;
+  left:1000px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.we1{
+  background-color: rgb(211, 14, 14);
+  font-size: 20px;
+}
+.we1:hover{
+  background-color: rgb(252, 10, 10);
+  
+}
+.we2{
+  background-color: rgb(213, 159, 11);
+  font-size: 20px;
+}
+.we2:hover{
+  background-color: rgb(245, 182, 11);
+  
+}
+
+.edit-form {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  top:10px;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  padding: 10px;
+  border: 3px solid #0b7dda;;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form h2 {
+  margin-top: 0;
+  font-size: 25px;
+  color: #181414;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom:-20px;
+  font-weight: bold;
+}
+
+.edit-form input[type="text"] {
+  width: 250px;
+  height:10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #045e7c;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.we{
+  background-color: rgb(14, 122, 211);
+  font-size: 20px;
+}
+.we:hover{
+  background-color: rgb(45, 185, 240);
+  
+}
+
+
+
+

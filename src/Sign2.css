@@ -1,0 +1,65 @@
+.design34{
+    margin: 0;
+    padding: 0;
+  background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+  }
+.sss h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: relative;
+    bottom: -250px;
+    color: azure;
+    right: -300px;
+}
+.sss1 button{
+    position: relative;
+    font-size: 40px;
+    border-radius: 20px;
+    bottom:-300px;
+    right:-700px;
+    background-color:rgb(13, 68, 105); ;
+    color:aliceblue;
+    border: 5px solid white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sss1 button:hover{
+    background-color: rgb(107, 221, 232);
+}
+
+@keyframes slideFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .sss h2,
+  .sss1 button {
+    animation: slideFromLeft 1s ease-out forwards;
+  }
+  /* ****************responsive**************** */
+ 
+@media screen and (max-width: 768px) {
+  .sss h2 {
+    font-size: 30px; 
+    bottom: -250px; 
+    right: -20px;
+    width: 370px;
+    line-height: 50px;
+  }
+
+  .sss1 button {
+    font-size: 30px; 
+    bottom: -280px; 
+    right: -150px; 
+  }
+}

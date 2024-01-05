@@ -1,0 +1,187 @@
+.design90{
+    margin: 0;
+    padding: 0;
+  background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+   background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;}
+    li {
+    float:right;
+    }
+    li a {
+    display: block;
+    color: white;
+    padding: 30px 100px;
+    text-decoration: none;
+    }
+    li a:hover {
+    background-color:rgb(18, 80, 122);;
+    }
+    img{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width:250px;
+    height:70px;
+    }
+    .card-container100 {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      background-color: aliceblue;
+      overflow-y: scroll;
+      max-height: 500px;
+      width: 90%; 
+      max-width: 1200px; 
+      margin: 0 auto; 
+      border-radius: 8px;
+      padding: 10px;
+      position: relative;
+      top:-650px;
+      right:-40px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+    .card-container100::-webkit-scrollbar {
+      width: 6px; 
+    }
+    
+    .card-container100::-webkit-scrollbar-thumb {
+      background-color: transparent; 
+    }
+    
+    .card1 h2{
+      font-weight: bolder;
+    }
+    .card11 h2{
+      font-weight: bolder;
+    }
+    .card12 h2{
+      font-weight: bolder;
+    }
+    .card1 img{
+      width:400px;
+      height: 200px;
+      left:750px;
+      top:30px;
+    }
+    .card11 img{
+      width:400px;
+      height: 200px;
+      left:750px;
+      top:275px;
+    }
+    .card12 img{
+      width:400px;
+      height: 200px;
+      left:750px;
+    top:520px;    }
+    .card11 {
+      width: calc(100% - 40px); 
+      max-width: 1200px; 
+      height: auto; 
+      padding: 20px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    }
+    .card12 {
+      width: calc(100% - 40px); 
+      max-width: 1200px; 
+      height: auto; 
+      padding: 20px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    }
+    .card1 {
+      width: calc(100% - 40px); 
+      max-width: 1200px; 
+      height: auto; 
+      padding: 20px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    }
+      .oo{
+        position: relative;
+        top: -660px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color:rgb(117, 207, 239);
+        
+    }
+ 
+    
+    .foot00 footer {
+        position: relative;
+        background-color: rgb(13, 68, 105);
+        color: rgb(248, 251, 253);
+        padding: 20px 0;
+        top:-638px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight:bolder;
+      }
+      
+      footer p {
+        margin: 0;
+        position: relative;
+        left:600px;
+        font-size: 15px;
+        position: relative;
+        top:-16px;
+      }
+      .fa {
+        padding: 1px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .icons00{
+        position: relative;
+        top:-15px;
+        left:650px;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }

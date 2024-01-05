@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.design{
+  margin: 0;
+  padding: 0;
+background-image: url("https://briidea.in/wp-content/uploads/2018/08/Basic-Landing-Page-background.jpg");
+ background-size: cover;
+  background-position: center;
+  height: 100vh; 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+font-family: 'Times New Roman', Times, serif;}
+  li {
+  float:right;
+  }
+  li a {
+  display: block;
   color: white;
+  padding: 30px 100px;
+  text-decoration: none;
+  }
+  li a:hover {
+  background-color:rgb(18, 80, 122);;
+  }
+  img{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width:250px;
+  height:70px;
+  }
+  .design2 h1{
+  position:relative;
+  bottom:-150px;
+  color: aliceblue;
+  left:500px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .design2 h2{
+  position:relative;
+  bottom:-150px;
+  color: aliceblue;
+  left:540px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  }
+
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.design2 h1,
+.design2 h2 {
+  animation: slideInFromTop 1s ease-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  
+ 
+  .b1 button{
+  position:relative;
+  bottom:-200px;
+  left:600px;
+  font-size: 35px;
+  border-radius: 30px;
+  background-color:rgb(13, 68, 105);
+  color: aliceblue;
+  border:2px solid white;
+  width:200px;
+  font-family: 'Times New Roman', Times, serif;
   }
-  to {
-    transform: rotate(360deg);
+  .b2 button{
+  position:relative;
+  bottom:-154px;
+  left:820px;
+  font-size: 35px;
+  border-radius: 30px;
+  background-color:rgb(13, 68, 105);
+  color: aliceblue;
+  border:2px solid white;
+  width:200px;
+  font-family: 'Times New Roman', Times, serif;
   }
-}
+  button:hover{
+  background-color: rgb(28, 107, 160);
+  }
+  /* responsive */
+  @media screen and (max-width: 768px) {
+  .design2 h1,
+  .design2 h2 {
+  font-size: 25px; 
+  text-align: center; 
+  left: 0; 
+  bottom: -120px; 
+  }
+  img{
+  position: absolute;
+  top: 10px;
+  left: 85px;
+  width:250px;
+  height:70px;
+  }
+  li a {
+  display: block;
+  color: white;
+  padding: 1px 12px; 
+  text-decoration: none;
+  margin-top: 150px; 
+  position:relative;
+  left:-30px;
+  }
+  .b1 button
+  {
+  font-size: 25px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  bottom: -130px; 
+  width: 150px; 
+  }
+  .b2 button {
+  font-size: 25px; 
+  width: 150px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  bottom: -140px; 
+  }
+  }
+  
