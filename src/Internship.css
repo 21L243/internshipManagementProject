@@ -110,11 +110,11 @@ height: 80px;
 .hen33 {
   position: relative;
   top:-630px;
-  left:-8px;
+  left:20px;
   margin-top: 20px; 
   }
   .hen33 table {
-    width: 40%; 
+    width: 60%; 
     border-collapse: collapse;
     border: 2px solid #2664ab;
     font-family: 'Times New Roman', Times, serif;
@@ -169,7 +169,7 @@ width: 20%;
 background: #f1f1f1;
 position: relative;
 top:-660px;
-left:1035px;
+left: 1060px;
 }
 
 form.example3 button {
@@ -185,7 +185,7 @@ border-left: none;
 cursor: pointer;
 position: relative;
 top:-660px;
-left:1035px;
+left:1060px;
 }
 
 form.example3 button:hover {
@@ -198,21 +198,25 @@ clear: both;
 display: table;
 }
 
-.we1{
+.we11{
 background-color: rgb(211, 14, 14);
 font-size: 20px;
 }
-.we1:hover{
+.we11:hover{
 background-color: rgb(252, 10, 10);
 
 }
-.we2{
+.we12{
 background-color: rgb(213, 159, 11);
 font-size: 20px;
 }
-.we2:hover{
+.we12:hover{
 background-color: rgb(245, 182, 11);
 
+}
+.we12{
+  position: relative;
+  bottom: -5px;
 }
 
 .edit-form3 {

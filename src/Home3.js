@@ -163,10 +163,10 @@ function Home3() {
                   </button>
                 ) : (
                   <>
-                    <button className="we1" onClick={() => handleDelete(account.id)}>
+                    <button className="we21" onClick={() => handleDelete(account.id)}>
                       Delete
                     </button>
-                    <button className="we2" onClick={() => handleEdit(account)}>
+                    <button className="we22" onClick={() => handleEdit(account)}>
                       Update
                     </button>
                   </>

@@ -114,7 +114,7 @@ left:350px;
 margin-top: 20px; 
 }
 .hen1 table {
-  width: 70%; 
+  width: 60%; 
   border-collapse: collapse;
   border: 2px solid #2664ab;
   font-family: 'Times New Roman', Times, serif;
@@ -198,23 +198,26 @@ clear: both;
 display: table;
 }
 
-.we1{
+.we21{
 background-color: rgb(211, 14, 14);
 font-size: 20px;
 }
-.we1:hover{
+.we21:hover{
 background-color: rgb(252, 10, 10);
 
 }
-.we2{
+.we22{
 background-color: rgb(213, 159, 11);
 font-size: 20px;
 }
-.we2:hover{
+.we22:hover{
 background-color: rgb(245, 182, 11);
 
 }
-
+.we22{
+  position: relative;
+  left:5px;
+}
 .edit-form1 {
 position: absolute;
 top: 50%;

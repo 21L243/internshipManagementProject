@@ -203,10 +203,10 @@ function Internship() {
                   </button>
                 ) : (
                   <>
-                    <button className="we1" onClick={() => handleDelete(account.id)}>
+                    <button className="we11" onClick={() => handleDelete(account.id)}>
                       Delete
                     </button>
-                    <button className="we2" onClick={() => handleEdit(account)}>
+                    <button className="we12" onClick={() => handleEdit(account)}>
                       Update
                     </button>
                   </>

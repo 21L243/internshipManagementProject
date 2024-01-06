@@ -221,6 +221,10 @@ form.example::after {
   background-color: rgb(245, 182, 11);
   
 }
+.we2 {
+  position: relative;
+  left:5px;
+}
 
 .edit-form {
   position: absolute;
