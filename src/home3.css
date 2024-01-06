@@ -95,7 +95,7 @@ height: 80px;
 .snake1 button{
   position: relative;
   top:-670px;
-  left:550px;
+  left:500px;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   border-radius: 10px;
@@ -107,44 +107,40 @@ height: 80px;
   background-color: #3b70be;
   color: aliceblue;
 }
-.hen {
+.hen1 {
 position: relative;
-top:-530px;
+top:-650px;
 left:350px;
 margin-top: 20px; 
 }
-
-
-
-.hen table {
-width: 70%;
-border-collapse: collapse;
-border: 3px solid #2664ab;
-font-family: 'Times New Roman', Times, serif;
+.hen1 table {
+  width: 70%; 
+  border-collapse: collapse;
+  border: 2px solid #2664ab;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-
-.hen th {
-border: 2px solid #201d1d;
-padding: 8px;
-text-align: left;
-background-color: #f2f2f2;
-font-family: 'Times New Roman', Times, serif;
-font-size: 15px;
+.hen1 th {
+  border: 2px solid #201d1d;
+  padding-right: 170px;
+  font-size: 25px;
+  background-color: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+  white-space: nowrap;}
+.hen1 p{
+  position: relative;
+  left:20px;
+}
+.hen1 td {
+  border: 2px solid #100f0f;
+  font-size: 15px;
+  padding: 20px;;
+  text-align: left;
+  background-color: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-
-.hen td {
-border: 2px solid #100f0f;
-padding: 8px;
-background-color: #f2f2f2;
-font-family: 'Times New Roman', Times, serif;
-}
-* {
-box-sizing: border-box;
-}
-
-form.example input[type=text] {
+form.example1 input[type=text] {
 padding: 10px;
 font-size: 17px;
 border: 1px solid grey;
@@ -152,11 +148,11 @@ float: left;
 width: 20%;
 background: #f1f1f1;
 position: relative;
-top:-550px;
-left:1000px;
+top:-650px;
+left:1020px;
 }
 
-form.example button {
+form.example1 button {
 float: left;
 width: 5%;
 padding: 15x;
@@ -168,15 +164,35 @@ border: 1px solid grey;
 border-left: none;
 cursor: pointer;
 position: relative;
-top:-550px;
-left:1000px;
+top:-650px;
+left:1020px;
+}
+.table-container1 {
+  max-height: 350px;
+  overflow-y: scroll; 
+  box-sizing: content-box; 
+border:2px solid #033660;
+  
 }
 
-form.example button:hover {
+.table-container1::-webkit-scrollbar {
+  width: 8px; 
+  height: 100px; 
+  background-color: #ccc;
+}
+
+
+.table-container1::-webkit-scrollbar-thumb {
+  background-color: #1f8296; 
+
+  border-radius: 5px;
+}
+
+form.example1 button:hover {
 background: #0b7dda;
 }
 
-form.example::after {
+form.example1::after {
 content: "";
 clear: both;
 display: table;
@@ -199,21 +215,21 @@ background-color: rgb(245, 182, 11);
 
 }
 
-.edit-form {
+.edit-form1 {
 position: absolute;
 top: 50%;
 left: 30%;
-top:10px;
+top:50px;
 transform: translate(-50%, -50%);
 z-index: 999;
 padding: 10px;
-border: 3px solid #0b7dda;;
+border: 5px solid #0b7dda;;
 border-radius: 5px;
 background-color: #f9f9f9;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.edit-form h2 {
+.edit-form1 h2 {
 margin-top: 0;
 font-size: 25px;
 color: #181414;
@@ -222,13 +238,13 @@ font-weight: bold;
 text-align: center;
 }
 
-.edit-form label {
+.edit-form1 label {
 display: block;
 margin-bottom:-20px;
 font-weight: bold;
 }
 
-.edit-form input[type="text"] {
+.edit-form1 input[type="text"] {
 width: 250px;
 height:10px;
 padding: 15px;

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './home4.css';
+import './home3.css';
 import { Link } from "react-router-dom";
 
-function Home4() {
+function Home3() {
   const initialAccounts = [
     {
       id: 1,
@@ -13,9 +13,27 @@ function Home4() {
     },
     {
       id: 2,
-      username: 'Roopika 28',
+      username: 'Roopika28',
       password: 'roopika2802@',
       name: 'Roopika Sree S',
+    },
+    {
+      id: 3,
+      username: 'Tamil3010',
+      password: 'devi@2003',
+      name: 'Tamilselvam R',
+    },
+    {
+      id: 4,
+      username: 'Senthil27',
+      password:"sen802@",
+      name: 'Senthil Kumar N',
+    },
+    {
+      id: 5,
+      username: 'Jaya1975',
+      password: 'jayashree@',
+      name: 'Jaya Shree C',
     }
 
   ];
@@ -119,17 +137,18 @@ function Home4() {
            <button>+ Admin</button>
         </div>
         </Link>
-        <form class="example">
+        <form class="example1">
   <input type="text" placeholder="Search......" name="search2"/>
   <button type="submit"><i class="fa fa-search"></i></button>
 </form>
-      <div class="hen">
+      <div class="hen1">
         <table>
+        <div class="table-container1">
           <tr>
-            <th>Username</th>
-            <th>Password</th>
-            <th>Name</th>
-            <th>Action</th>
+            <th><p>Username</p></th>
+            <th><p>Password</p></th>
+            <th><p>Name</p></th>
+            <th><p>Action</p></th>
           </tr>
           {accounts.map((account) => (
             <tr key={account.id}>
@@ -155,9 +174,11 @@ function Home4() {
               </td>
             </tr>
           ))}
+             </div>
         </table>
+     
         {editMode.status && (
-          <div className="edit-form">
+          <div className="edit-form1">
             <h2>Edit Account</h2>
             <form>
               <label>Username:</label>
@@ -190,4 +211,4 @@ function Home4() {
   );
 }
 
-export default Home4;
+export default Home3;

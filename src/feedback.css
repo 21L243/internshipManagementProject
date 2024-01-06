@@ -81,6 +81,57 @@
     color:rgb(0, 131, 245);
     background-color:rgb(48, 48, 49);
   }
+  .henss {
+    position: relative;
+    top:-650px;
+    left:350px;
+    margin-top: 20px; 
+    }
+    .henss table {
+      width: 70%; 
+      border-collapse: collapse;
+      border: 2px solid #2664ab;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .tables{
+      max-height: 380px;
+      overflow-y: scroll; 
+      box-sizing: content-box; 
+    border:2px solid #033660;
+      
+    }
+    
+    .tables::-webkit-scrollbar {
+      width: 8px; 
+      height: 100px; 
+      background-color: #ccc;
+    }
+    
+    
+    .tables::-webkit-scrollbar-thumb {
+      background-color: #1f8296; 
+    
+      border-radius: 5px;
+    }
+    .henss th {
+      border: 2px solid #201d1d;
+      padding-right: 175px;
+      font-size: 25px;
+      background-color: #f2f2f2;
+      font-family: 'Times New Roman', Times, serif;
+      white-space: nowrap;}
+    .henss p{
+      position: relative;
+      left:20px;
+    }
+    .henss td {
+      border: 2px solid #100f0f;
+      font-size: 15px;
+      padding: 20px;;
+      text-align: left;
+      background-color: #f2f2f2;
+      font-family: 'Times New Roman', Times, serif;
+    }
   .parrot{
     position: relative;
     top:-700px;
@@ -96,7 +147,43 @@
   .checked {
     color: orange;
   }
- 
+  form.exampless input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+    position: relative;
+    top:-650px;
+    left:1030px;
+    }
+    
+    form.exampless button {
+    float: left;
+    width: 5%;
+    padding: 15x;
+    background: #2196F3;
+    color: white;
+    height: 45px;;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    position: relative;
+    top:-650px;
+    left:1030px;
+    }
+    form.exampless button:hover {
+      background: #0b7dda;
+      }
+      
+      form.exampless::after {
+      content: "";
+      clear: both;
+      display: table;
+      }
+      
   .cat1{
     position: relative;
     top:-830px;

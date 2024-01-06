@@ -61,6 +61,10 @@ function Newinternship() {
     <label for="password">Internship name</label>
     <input type="username" id="password" name="password" required/>
   </div>
+  <div class="form-group">
+                <label for="salary">Internship Type:</label>
+                <input type="username" id="int" name="username" required/>
+            </div>
 <div class="form-group">
                 <label for="salary">Salary:</label>
                 <input type="number" id="salary" name="salary" required/>

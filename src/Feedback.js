@@ -51,17 +51,18 @@ function Feedback() {
         <div class="parrot">
             <h1>Feedbacks</h1>
         </div>
-        <form class="example">
+        <form class="exampless">
   <input type="text" placeholder="Search......" name="search2"/>
   <button type="submit"><i class="fa fa-search"></i></button>
 </form>
-        <div class="hen">
+        <div class="henss">
         <table>
+          <div class="tables">
   <tr>
-   <th>Name</th>
-   <th>Email</th>
-   <th>Suggestions</th>
-    <th>Ratings</th>
+   <th><p>Name</p></th>
+   <th><p>Email</p></th>
+   <th><p>Suggestions</p></th>
+    <th><p>Ratings</p></th>
   </tr>
   <tr>
     <td>Roopika Sree S</td>
@@ -86,15 +87,40 @@ function Feedback() {
 <span class="fa fa-star checked"></span></td>
   </tr>
   <tr>
+    <td>Tamilselvam R</td>
+    <td>tamil30@gmail.com</td>
+    <td>Internship salary is less</td>
+    <td>  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></td>
+
+  </tr>
+  <tr>
     <td>Ramiya Sri S</td>
     <td>ramiyasri28srs@gmail.com</td>
-    <td>Offer flexible work options</td>
+    <td>Language Problem</td>
+    <td>  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span></td>
+
+  </tr>
+  <tr>
+    <td>Ramiya Sri S</td>
+    <td>ramiyasri28srs@gmail.com</td>
+    <td>Offer more paid internship</td>
     <td>  <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span></td>
+
   </tr>
+  
+  </div>
 </table>
 </div>
 

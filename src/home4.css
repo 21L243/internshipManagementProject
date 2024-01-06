@@ -92,10 +92,10 @@
     text-align: center;
     border:5px solid rgb(26, 149, 198);
   }
-  .snake1 button{
+  .snake2 button{
     position: relative;
     top:-670px;
-    left:550px;
+    left:500px;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
@@ -103,43 +103,44 @@
     background-color: rgb(14, 81, 140);
     color: aliceblue;
   }
-  .snake1 button:hover{
+  .snake2 button:hover{
     background-color: #3b70be;
     color: aliceblue;
   }
 .hen {
   position: relative;
-  top:-530px;
+  top:-650px;
   left:350px;
   margin-top: 20px; 
 }
 
-
-
 .hen table {
-  width: 70%;
+  width: 60%; 
   border-collapse: collapse;
-  border: 3px solid #2664ab;
+  border: 2px solid #2664ab;
   font-family: 'Times New Roman', Times, serif;
 }
-
 
 .hen th {
   border: 2px solid #201d1d;
-  padding: 8px;
+  padding-right: 120px;
+  font-size: 25px;
+  background-color: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+  white-space: nowrap;}
+.hen p{
+  position: relative;
+  left:20px;
+}
+.hen td {
+  border: 2px solid #100f0f;
+  font-size: 15px;
+  padding: 20px;;
   text-align: left;
   background-color: #f2f2f2;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
 }
 
-
-.hen td {
-  border: 2px solid #100f0f;
-  padding: 8px;
-  background-color: #f2f2f2;
-  font-family: 'Times New Roman', Times, serif;
-}
 * {
   box-sizing: border-box;
 }
@@ -152,8 +153,8 @@ form.example input[type=text] {
   width: 20%;
   background: #f1f1f1;
   position: relative;
-  top:-550px;
-  left:1000px;
+  top:-650px;
+  left:1020px;
 }
 
 form.example button {
@@ -168,9 +169,31 @@ form.example button {
   border-left: none;
   cursor: pointer;
   position: relative;
-  top:-550px;
-  left:1000px;
+  top:-650px;
+  left:1020px;
 }
+
+.table-container {
+  max-height: 350px;
+  overflow-y: scroll; 
+  box-sizing: content-box; 
+border:2px solid #033660;
+  
+}
+
+.table-container::-webkit-scrollbar {
+  width: 8px; 
+  height: 100px; 
+  background-color: #ccc;
+}
+
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: #1f8296; 
+
+  border-radius: 5px;
+}
+
 
 form.example button:hover {
   background: #0b7dda;
@@ -201,17 +224,19 @@ form.example::after {
 
 .edit-form {
   position: absolute;
-  top: 50%;
+  top: 120px;
   left: 30%;
-  top:10px;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   z-index: 999;
   padding: 10px;
-  border: 3px solid #0b7dda;;
+  top:-70px;
+  left:500px;
+  border: 5px solid #0b7dda;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .edit-form h2 {
   margin-top: 0;

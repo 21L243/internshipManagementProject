@@ -92,10 +92,10 @@ height: 80px;
   text-align: center;
   border:5px solid rgb(26, 149, 198);
 }
-.snake1 button{
+.snake3 button{
   position: relative;
   top:-670px;
-  left:550px;
+  left:500px;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   border-radius: 10px;
@@ -103,48 +103,64 @@ height: 80px;
   background-color: rgb(14, 81, 140);
   color: aliceblue;
 }
-.snake1 button:hover{
+.snake3 button:hover{
   background-color: #3b70be;
   color: aliceblue;
 }
-.hen {
-position: relative;
-top:-530px;
-left:350px;
-margin-top: 20px; 
-}
-
-
-
-.hen table {
-width: 70%;
-border-collapse: collapse;
-border: 3px solid #2664ab;
-font-family: 'Times New Roman', Times, serif;
-}
-
-
-.hen th {
-border: 2px solid #201d1d;
-padding: 8px;
-text-align: left;
-background-color: #f2f2f2;
-font-family: 'Times New Roman', Times, serif;
-font-size: 15px;
-}
-
-
-.hen td {
-border: 2px solid #100f0f;
-padding: 8px;
-background-color: #f2f2f2;
-font-family: 'Times New Roman', Times, serif;
-}
-* {
-box-sizing: border-box;
-}
-
-form.example input[type=text] {
+.hen33 {
+  position: relative;
+  top:-630px;
+  left:-8px;
+  margin-top: 20px; 
+  }
+  .hen33 table {
+    width: 40%; 
+    border-collapse: collapse;
+    border: 2px solid #2664ab;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .hen33 th {
+    border: 2px solid #201d1d;
+    font-size: 25px;
+    padding-right: 30px;
+    background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+    white-space: nowrap;}
+  .hen33 p{
+    position: relative;
+    left:20px;
+  }
+  .hen33 td {
+    border: 2px solid #100f0f;
+    font-size: 15px;
+    padding: 20px;
+    text-align: left;
+    background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .table-container33 {
+    max-height: 350px;
+    overflow-y: scroll; 
+    box-sizing: content-box; 
+  border:2px solid #033660;
+    
+  }
+  
+  .table-container33::-webkit-scrollbar {
+    width: 8px; 
+    height: 100px; 
+    background-color: #ccc;
+  }
+  
+  
+  .table-container33::-webkit-scrollbar-thumb {
+    background-color: #1f8296; 
+  
+    border-radius: 5px;
+  }
+  
+form.example3 input[type=text] {
 padding: 10px;
 font-size: 17px;
 border: 1px solid grey;
@@ -152,11 +168,11 @@ float: left;
 width: 20%;
 background: #f1f1f1;
 position: relative;
-top:-550px;
-left:1000px;
+top:-660px;
+left:1035px;
 }
 
-form.example button {
+form.example3 button {
 float: left;
 width: 5%;
 padding: 15x;
@@ -168,15 +184,15 @@ border: 1px solid grey;
 border-left: none;
 cursor: pointer;
 position: relative;
-top:-550px;
-left:1000px;
+top:-660px;
+left:1035px;
 }
 
-form.example button:hover {
+form.example3 button:hover {
 background: #0b7dda;
 }
 
-form.example::after {
+form.example2::after {
 content: "";
 clear: both;
 display: table;
@@ -199,43 +215,45 @@ background-color: rgb(245, 182, 11);
 
 }
 
-.edit-form {
-position: absolute;
-top: 50%;
-left: 30%;
-top:10px;
-transform: translate(-50%, -50%);
-z-index: 999;
-padding: 10px;
-border: 3px solid #0b7dda;;
-border-radius: 5px;
-background-color: #f9f9f9;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.edit-form h2 {
-margin-top: 0;
-font-size: 25px;
-color: #181414;
-font-family: 'Times New Roman', Times, serif;
-font-weight: bold;
-text-align: center;
-}
-
-.edit-form label {
-display: block;
-margin-bottom:-20px;
-font-weight: bold;
-}
-
-.edit-form input[type="text"] {
-width: 250px;
-height:10px;
-padding: 15px;
-margin-bottom: 15px;
-border: 1px solid #045e7c;
-border-radius: 4px;
-box-sizing: border-box;
+.edit-form3 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  top:50px;
+  top:170px;
+  left:850px;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  padding: 10px;
+  border: 5px solid #0b7dda;;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-form3 h2 {
+  margin-top: 0;
+  font-size: 25px;
+  color: #181414;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  }
+  
+  .edit-form3 label {
+  display: block;
+  margin-bottom:-20px;
+  font-weight: bold;
+  }
+  
+  .edit-form3 input[type="text"] {
+  width: 250px;
+  height:10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #045e7c;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 .we{
 background-color: rgb(14, 122, 211);

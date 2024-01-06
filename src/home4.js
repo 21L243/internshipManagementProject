@@ -25,7 +25,27 @@ function Home4() {
       name: 'Vani shree B',
       gender: 'Female'
     },
-
+    {
+      id: 4,
+      username: 'Tamil30',
+      password: 'Tamil2003@',
+      name: 'Tamilselvam R',
+      gender: 'Male'
+    },
+    {
+      id: 5,
+      username: 'Anitha26',
+      password: 'Anitha2003@',
+      name: 'Anitha S',
+      gender: 'Female'
+    },
+    {
+      id: 6,
+      username: 'Abhi26',
+      password: 'Abhi$$@',
+      name: 'Abhi S',
+      gender: 'Female'
+    },
   ];
 
   const [accounts, setAccounts] = useState(initialAccounts);
@@ -123,7 +143,7 @@ function Home4() {
             <h1>Accounts/Student</h1>
         </div>
         <Link to="/student">
-        <div class="snake1">
+        <div class="snake2">
            <button>+ Student</button>
         </div>
         </Link>
@@ -131,41 +151,49 @@ function Home4() {
   <input type="text" placeholder="Search......" name="search2"/>
   <button type="submit"><i class="fa fa-search"></i></button>
 </form>
-      <div class="hen">
-        <table>
-          <tr>
-            <th>Username</th>
-            <th>Password</th>
-            <th>Name</th>
-            <th>Gender</th>
-            <th>Action</th>
-          </tr>
-          {accounts.map((account) => (
-            <tr key={account.id}>
-              <td>{account.username}</td>
-              <td>{account.password}</td>
-              <td>{account.name}</td>
-              <td>{account.gender}</td>
-              <td>
-                {editMode.status && editMode.id === account.id ? (
-                  <button className="we" onClick={handleSave}>
-                    Save
+<div class="hen">
+    <table>
+      <div className='table-container'>
+      <thead>
+        <tr>
+          <th><p>Username</p></th>
+          <th><p>Password</p></th>
+          <th><p>Name</p></th>
+          <th><p>Gender</p></th>
+          <th><p>Action</p></th>
+        </tr>
+      </thead>
+      <tbody>
+        {accounts.map((account) => (
+          <tr key={account.id}>
+            <td>{account.username}</td>
+            <td>{account.password}</td>
+            <td>{account.name}</td>
+            <td>{account.gender}</td>
+            <td>
+              {editMode.status && editMode.id === account.id ? (
+                <button className="we" onClick={handleSave}>
+                  Save
+                </button>
+              ) : (
+                <>
+                  <button className="we1" onClick={() => handleDelete(account.id)}>
+                    Delete
                   </button>
-                ) : (
-                  <>
-                    <button className="we1" onClick={() => handleDelete(account.id)}>
-                      Delete
-                    </button>
-                    <button className="we2" onClick={() => handleEdit(account)}>
-                      Update
-                    </button>
-                  </>
-                )}
-              </td>
-            </tr>
-          ))}
-        </table>
-        {editMode.status && (
+                  <button className="we2" onClick={() => handleEdit(account)}>
+                    Update
+                  </button>
+                </>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+      </div>
+    </table>
+
+
+       {editMode.status && (
           <div className="edit-form">
             <h2>Edit Account</h2>
             <form>
@@ -200,7 +228,7 @@ function Home4() {
             </form>
           </div>
         )}
-      </div>
+        </div>
     </>
   );
 }
